@@ -50,7 +50,6 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
 }
 
 html, body {
@@ -104,9 +103,16 @@ header {
 
 }
 
+.about p {
+    padding-bottom: 6%;
+    border-bottom: 1px dashed black;
+}
+
 h4 {
     font-size: 20px;
-    padding: 0 1%;
+    padding: 2% 1%;
+    margin: 1% 0;
+
 }
 
 a {
@@ -115,7 +121,7 @@ a {
 }
 
 .about h4 {
-    margin: 1% 0;
+    margin: 2% 0;
 }
 
 .middlechild {
@@ -125,23 +131,33 @@ a {
 
 .strategy {
     width: 49%;
-    padding: 2% 1% 6%;
-    margin: 2% auto 4%;
+    padding: 1% 1% 5%;
+    margin: 1% auto 3%;
     border-bottom: 1px dashed black;
 }
 
+
 .strategy a {
-    padding: 2% 3%;
+    padding: 2% 6%;
     margin: 5% 0;
     border: 3px solid black;
     border-radius: 15px;
 }
 .strategy p {
-    margin: 2% 0 4%;
+    margin: 3% 0 10%;
 }
 
 img {
     width: 100%;
+}
+
+.together {
+    margin: 2% 2% 3%;
+
+}
+
+.together h4 {
+    padding: 1% 0;
 }
 
 footer {
